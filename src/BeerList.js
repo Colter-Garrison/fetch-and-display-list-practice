@@ -1,8 +1,13 @@
-
 import React from 'react';
+import Beer from './Beer';
 
-export default function BeerList() {
+export default function BeerList({ beer }) {
   return (
-    <div>BeerList Page</div>
+    <div>
+      {
+        beer.map((beer, i) => {return <Beer {...beer} key={beer.name + i + beer.id}/>;})
+      }
+      BeerList Page
+    </div>
   );
 }

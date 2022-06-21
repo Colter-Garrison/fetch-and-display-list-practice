@@ -1,8 +1,12 @@
 import React from 'react';
 
-export default function Beer() {
+export default function Beer({ name, type, maker }) {
   return (
-    <div>Beer Page</div>
+    <div>
+      <p>{name}</p>
+      <p>{type}</p>
+      <p>{maker}</p>
+    </div>
   );
 }
 
