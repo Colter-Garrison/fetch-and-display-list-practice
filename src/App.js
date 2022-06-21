@@ -1,6 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import { getBeer, getCandies, getPets, getSushi } from './services/fetch-utils';
 // import your arrays here
+import BeerList from './BeerList';
+import CandiesList from './CandiesList';
+import PetsList from './PetsList';
+import SushiList from './SushiList';
 
 function App() {
   return (
