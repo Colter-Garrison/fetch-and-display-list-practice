@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.beer-object {
+  border: solid 1px black;
+  width: 225px;
+  height: 200px;
+}
+
+.candy-object {
+  border: 1px solid black;
+  width: 225px;
+  height: 200px;
+}

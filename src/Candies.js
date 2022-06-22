@@ -1,8 +1,12 @@
 import React from 'react';
 
-export default function Candies() {
+export default function Candies({ name, type, maker }) {
   return (
-    <div>Candies Page</div>
+    <div className='candy-object'>
+      <h2>{maker}</h2>
+      <h4>{name}</h4>
+      <p>{type}</p>
+    </div>
   );
 }
 

@@ -7,7 +7,6 @@ export default function BeerList({ beer }) {
       {
         beer.map((beer, i) => {return <Beer {...beer} key={beer.name + i + beer.id}/>;})
       }
-      BeerList Page
     </div>
   );
 }
