@@ -40,6 +40,9 @@
 .App {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: center;
 }
 
 .beer-object {

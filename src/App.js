@@ -42,7 +42,6 @@ function App() {
 
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
       <BeerList beer={beer} />
       <CandiesList candies={candies} />
       <PetsList pets={pets} />
